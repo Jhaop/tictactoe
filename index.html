@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIC TAC TOE</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="tictactoe.js" defer></script>
+</head>
+<body>
+    <div class="outer-container">
+        <h1>Tic Tac Toe</h1>
+        <h3 class="player1name">Player 1</h3>
+        <h3 class="player2name">Player 2</h3>
+        <h3 id="turn">Player 1</h3>
+        <div class="game-container">
+            <button id="play">PLAY</button>
+            <div class="game">
+                <div class="box" data-row="0" data-column="0"></div>
+                <div class="box" data-row="0" data-column="1"></div>
+                <div class="box" data-row="0" data-column="2"></div>
+                <div class="box" data-row="1" data-column="0"></div>
+                <div class="box" data-row="1" data-column="1"></div>
+                <div class="box" data-row="1" data-column="2"></div>
+                <div class="box" data-row="2" data-column="0"></div>
+                <div class="box" data-row="2" data-column="1"></div>
+                <div class="box" data-row="2" data-column="2"></div>
+            </div>
+            <h2 id="winner"></h2>
+        </div>
+    </div>
+</body>
+</html>
